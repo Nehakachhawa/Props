@@ -1,0 +1,56 @@
+[
+    {
+        "lable": "Home",
+        "link": "/",
+        "isDropdown": false
+    },
+    {
+        "lable": "About Us",
+        "link": "about",
+        "isDropdown": true,
+        "dropdownMenu": [
+            {
+                "lable": "About Us detail",
+                "link": "/about_us_detail"
+            },
+            {
+                "lable": "About Us In Depth",
+                "link": "/about_us_in_depth"
+            }
+        ]
+    },
+    {
+        "lable": "Gallery",
+        "link": "gallery",
+        "isDropdown": false
+    },
+    {
+        "lable": "Contact Us",
+        "link": "contact",
+        "isDropdown": false
+    },
+    {
+        "lable": "Product",
+        "link": "product",
+        "isDropdown": true,
+        "dropdownMenu": [
+            {
+                "lable": "Types of Product",
+                "link": "/type_of_product"
+            },
+            {
+                "lable": "Quality1",
+                "link": "/quality_1"
+            },
+            {
+                "lable": "Quality2",
+                "link": "/quality_2"
+            }
+        ]
+    },
+    {
+        "lable": "Service",
+        "link": "service",
+        "isDropdown": false
+    }
+]

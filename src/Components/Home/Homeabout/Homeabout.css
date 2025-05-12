@@ -1,0 +1,12 @@
+#Homeabout{
+    background-color: #333a45;
+    color:white;
+}
+
+#Homeabout h1,#Homeabout .box h3{
+    color: #15b695;
+}
+#Homeabout .box{
+    padding: 30px;
+    background-color: #273238;
+}
