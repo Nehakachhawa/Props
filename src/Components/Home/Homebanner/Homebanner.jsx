@@ -7,6 +7,7 @@ function Homebanner({props}) {
     <section id="Homebanner">
         <h1>Home Banner Page</h1>
         <h2>{props.name}</h2>
+        
     </section>
    </React.Fragment>
   )

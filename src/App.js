@@ -5,19 +5,18 @@ import Navbar from './Components/Navbar/Navbar.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home.jsx';
 
-const comDetails = {
+const compDetails = {
   name: "CNC WEB WORLD",
-  logo: './logo192.png'
+  logo: "./logo192.png"
 }
-
 
 function App() {
 
   return (
     <BrowserRouter>
-      <Navbar props={comDetails}/>
+      <Navbar props = {compDetails} />
       <Routes>
-        <Route path="/" element={<Home props={ comDetails}/>} />
+        <Route path="/" element={<Home props ={compDetails} />} />
         <Route path="/about" element={<h1>About Us Page</h1>} />
         <Route path="/about_us_detail" element={<h1>About Us Detail</h1>} />
         <Route path="/about_us_in_depth" element={<h1>About Us In Depth</h1>} />

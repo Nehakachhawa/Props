@@ -5,7 +5,7 @@ import Homeabout from './Homeabout/Homeabout'
 function Home({props}) {
   return (
     <React.Fragment>
-        <Homebanner props={props}/>
+        <Homebanner props = {props} />
         <Homeabout/>
     </React.Fragment>
   )
